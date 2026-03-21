@@ -96,10 +96,10 @@
   <div class="detail-panel" id="detailPanel"></div>
 </div>
 <script>
-const SHEET_ID = "2PACX-1vQpn1ztrZGYDSFvSRSYYS3iTregz-G4uBmzubcqyMZ9vnkYTsmYEmvX62nxDenLuQ";
-const BASE = "https://docs.google.com/spreadsheets/d/e/" + SHEET_ID + "/pub?";
-const MAIN_URL = BASE + "gid=381068630&single=true&output=csv";
-const PROFILE_URL = BASE + "gid=2141123903&single=true&output=csv";
+const SPREADSHEET_ID = "1c5cCmOgP50F-ayCB1qKF32MYmkYD0gNh";
+const BASE = "https://docs.google.com/spreadsheets/d/" + SPREADSHEET_ID + "/export?format=csv&";
+const MAIN_URL = BASE + "gid=381068630";
+const PROFILE_URL = BASE + "gid=2141123903";
 
 let DATA=[], PROFILES={}, filtered=[], sortCol='', sortDir=1, currentPage=1, activeDiocese='';
 const PAGE_SIZE=50;
